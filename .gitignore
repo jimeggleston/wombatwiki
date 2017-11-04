@@ -1,8 +1,7 @@
 **/cache
 **/session
 **/pages
-**/static
-!**/css
+**/static/images
 .bkup
 *.pyc
 *.zip

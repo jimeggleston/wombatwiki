@@ -1,0 +1,27 @@
+/*-------------------------
+/* Basic.css 
+/* Just a few simple styles that NN4 can cope with.
+/*------------------------*/
+
+BODY  { background: url(img/g6lt06.gif) #FFFFFF; color:black; font-family:sans-serif;}
+
+A:link	{ color: #000077; background-color:transparent; }
+A:visited	{ color: #000055; background-color:transparent; }
+A:active, A:focus	{ color: red; background-color:white; }  /* 'active' here for IE bug */
+A:link:hover    { color: blue; background-color:transparent; }
+A:visited:hover { color: blue; background-color:transparent; }
+
+
+/*--------- Sub-site Flags -----------*/
+
+.wmstyle
+	{ background-color: yellow; color: green; }
+.ukrbstyle
+	{ background-color: green; color: yellow; }
+.nlstyle
+	{ color: black; background-color: #FF8000; }
+
+
+
+
+

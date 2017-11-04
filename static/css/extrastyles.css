@@ -1,0 +1,139 @@
+/*----------------------------------------------
+/*  extrastyles.css
+/*  Styles that Netscape 4 etc can't cope with 
+/*  Dec 2003: almost all styles moved here. (Fed up with NN bugs)
+/*--------------------------------------------*/
+
+
+/*--------- Page Layout -----------*/
+
+/*
+BODY  { background:  #99CCFF fixed; color: #000077;
+        font-size: 100%;  font-family:sans-serif; /* work-around for IE */
+	}
+*/
+
+BODY  { background-color: #E6E7E8 fixed; color: #003333;
+        font-size: 100%;  font-family:sans-serif; /* work-around for IE */
+	}
+
+BODY#noframe  
+      { background: url(img/g6lt06.gif) #003333; 
+	  padding: 1em 2em;
+	}
+
+
+/*--------- Main Styles ----------- */
+
+
+H1 		{ text-align: center; color: #4F0B58;}
+H2 		{ text-align: left; font-size:200%; margin-bottom:0.3em; margin-top=0.3em; color:#000060;}
+H4 		{ text-align: left; margin-bottom:0; color:#000060;}
+H5 		{ text-align: left; margin-bottom:0; margin-top:0; color:#000060; font-size:100%;}
+
+/*
+H1 		{ text-align: center; color: white; background-color: #666699;}
+H2 		{ text-align: left; font-size:200%; margin-bottom:0.3em; margin-top=0.3em; color: white; background-color: #666699;}
+H4 		{ text-align: left; margin-bottom:0; color: white; background-color: #666699;}
+H5 		{ text-align: left; margin-bottom:0; margin-top:0; color: white; background-color: #666699; font-size:100%;}
+*/
+
+BLOCKQUOTE	{ font-style: italic; }
+
+PRE         { font-size: 90% }  
+PRE.code    { background-color: white; color: black; }
+
+CODE  { font-size: 90%; background-color: white; color: black; 
+        white-space: nowrap; margin-left: 0.3em; margin-right: 0.3em; }
+CODE.block
+      { font-size: 90%; display: block; }
+
+
+/*--------- General Classes -----------*/
+
+.nolink	{ text-decoration:underline; }
+.subheading { font-size: 120%; font-weight: bold; text-align: center; 
+	        margin-top: 0; padding-top:0; }
+.nw         { white-space: nowrap; }
+.alert      { color: white; background-color: red; } /* overridden in extrastyles.css */
+.clear      { clear: both; }
+
+HR.short { width: 40%; text-align: center; }
+
+TABLE.padded TD, TABLE.padded TH { padding: 0.2em; }
+
+TABLE.std TD, TABLE.std TH { padding: 0.4em; vertical-align: top; }
+TABLE.std TD { font-size: 90%; }
+
+TABLE.toc TD, TABLE.toc TH { padding: 0.2em; height: 2.5em; }
+ 
+.mourning	{ border: solid black }
+.smiley	{ font-family: monospace; background-color: rgb(255,210,210); color: black }
+.alert      { color: white; background-color: red; 
+              padding: 0 0.5em; border: thin solid white; }
+
+.emphasisbox { font-size: 120%; border: medium solid red; 
+               margin-left: 20%; margin-right: 20%; padding: 0.7em; }
+
+.floated	{ float:right; margin-left: 1em; margin-top: 0; }
+
+.multicol 	{ width: 12em; max-width: 90%; min-width: 28%; margin: 0.5em; padding: 0.5em; 	 	        float: left; border: thin solid black; }
+
+.sidebar-small  { float: right; width: 6em; border: medium solid #BC3400; 
+                  padding: 0.6em 1em; margin-left: 1em; margin-bottom: 0.6em; }
+.sidebar-medium { float: right; width: 10em; border: medium solid #BC3400; 
+                  padding: 0.6em 1em; margin-left: 1em; margin-bottom: 0.6em; }
+.before-sidebar { padding-bottom: 1em; margin-bottom: 0; }
+.has-sidebar    { margin-top: 0; padding-top: 0; }
+.after-sidebar  { clear: both; }
+
+
+.smallcaps	{ font-size: 90%; }
+.init       { font-size: 90%; }
+
+.linklist A { display: block; width: 18em; float: left; padding: 0.2em 0.5em; }
+
+
+/*-----------------------------
+/* lists
+/*---------------------------*/
+
+.multiline LI { padding-bottom: 0.8em; }
+
+.brief        { margin-bottom: 0; margin-top: 0;  }
+.brief LI     { padding-top: 0; padding-bottom: 0; }
+
+P.listintro                 { margin-bottom: 0; padding-bottom: 0; }  
+OL.listintro, UL.listintro  { margin-top: 0; padding-top: 0; }    
+
+.nested LI	  { margin-bottom: 1em;   margin-top: 0;  }
+.nested LI LI { margin-bottom: 0.2em; margin-top: 0;  }
+
+/*-----------------------------
+/* uk.r.b portraits 
+/*---------------------------*/
+
+.portraits TD {text-align:center; width: 240px; padding-bottom: 1.5em; vertical-align: top; }
+.portraits A  {padding: 0 0.5em; }
+.pname        {font-size: 120%; margin: 0.2em; }
+ 
+/*-----------------------------
+/* for test only
+/*---------------------------*/
+.test  { border: thin solid red; }
+.test2 { border: thin solid green; }
+
+
+/*
+td.content {border: thin solid #444444; color: #000060; background-color: #EFEFFF;}
+h1.headline {color: #FFFFFF; background-color: #4F0B58; margin-bottom: 0.1em; margin-top: 0.1em; }
+.headline {color: #FFFFFF; background-color: #4F0B58;}
+.theme {color: #FFFFFF; background-color: #4F0B58;}
+*/
+td.content {border: thin solid #444444; color: #231F20; background-color: #E6E7E8;}
+td.headline {text-align:right; border: thin solid #000000; color: #6C4B9E; }
+h1.headline {color: #FFFFFF; background-color: #6C4B9E; margin-bottom: 0.1em; margin-top: 0.1em; }
+h3.headline {text-align: right; color: #FFFFFF; background-color: #6C4B9E;}
+.headline {color: #FFFFFF; background-color: #6C4B9E;}
+.theme {color: #FFFFFF; background-color: #6C4B9E;}
+

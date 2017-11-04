@@ -1,0 +1,15 @@
+/* bottle_app specific CSS overlay to modify base min.css behaviour */
+textarea {
+  -webkit-appearance: none;
+  width: 95%;
+  outline: 0;
+}
+input[type=text] {
+  -webkit-appearance: none;
+  width: 50%;
+  outline: 0;
+}
+.addon {
+  box-shadow: 0 0 0 0px;
+  padding: 8px 12px;
+}
