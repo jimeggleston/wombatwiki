@@ -1,8 +1,8 @@
-cache
-session
-pages
-static
-!static/css
+**/cache
+**/session
+**/pages
+**/static
+!**/css
 .bkup
 *.pyc
 *.zip
