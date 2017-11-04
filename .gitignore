@@ -1,0 +1,9 @@
+cache
+session
+pages
+static
+!static/css
+.bkup
+*.pyc
+*.zip
+*.bak
